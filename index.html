@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Finder</title>
+    <link href="style.css" rel="stylesheet">  
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+   
+    <header>
+      <nav>  <ul class ="nav_links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#tc">T & C's</a></li>
+            <li><a href="#td">Flights</a></li>
+            <li><a href="#mb">My Bookings</a></li>
+            </ul>
+    </nav>
+        <h1>Book your Flights !!!</h1>
+    </header>
+<img src="images/fligh app logo.jpg" width="100%" height="500">
+   
+
+<br>
+
+<h2>My Bookings</h2>
+
+<div class ="container">
+    
+    <form method="get" action ="/booking.html" name="loginForm">
+
+        Username    <input type = "email" id="usrname"  name="usrname" required/><br><br>
+        
+        Password    <input type = "password"id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br><br> 
+        
+                    <input type ="submit" value="Submit" onclick="validateLogin()" > 
+
+    </form>
+
+
+</div>
+    <section><h2>About Us</h2>
+       <h3> <p id = "about"> Flight Finder is proud to be a part of the Roos Aussie groups, one of the largest online travel companies in Australia. With nearly 14 million customers and 
+         over 4 million holidays sold, we fill 75 Boeing 737s every day, departing and arriving from 77 countries across the globe.</p>
+     </section></h3>
+    
+     
+
+</body>
+<footer>
+    <h2>Terms and conditions</h2>
+       <h4><p id ="tc">You must be at least 18 years of age and act in your role as a private consumer to make a booking on the Portal. A private consumer is, 
+         as opposed to a business, a natural person who enters into a legal transaction for purposes which are predominantly outside its commercial
+         and/or self-employed activities.  </p></h4> 
+    </footer>
+</html>

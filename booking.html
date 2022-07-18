@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Finder</title>
+    <link href="style.css" rel="stylesheet">  
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+   
+    <header>
+      <nav>  <ul class ="nav_links">
+            <li><a href="/index.html">About Us</a></li>
+            <li><a href="/index.html">T & C's</a></li>
+            <li><a href="#td">Flights</a></li>
+            
+            </ul>
+    </nav>
+        <h1>Book your Flights !</h1>
+    </header>
+<img src="images/fligh app logo.jpg" width="100%" height="500">
+   <div id = "td">
+    <h2>Travel Details</h2>
+
+   <form method="get" action ="/bookingDetails.html" target="_blank">
+    FROM   <select name="cntry" id="country-select">
+        <option value="">--Please choose an option--</option>
+        <option value="australia">Australia</option>
+        <option value="france">France</option>
+        <option value="germany">Germany</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="japan">Japan</option>
+        <option value="london">London</option>
+    </select>
+    
+    TO    <select name="cntry" id="country-select">
+        <option value="">--Please choose an option--</option>
+        <option value="australia">Australia</option>
+        <option value="france">France</option>
+        <option value="germany">Germany</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="japan">Japan</option>
+        <option value="london">London</option>
+    </select>
+<br><br>
+    START DATE <input type = "date" id ="sdate" name = "date" /> 
+ 
+    RETURN DATE<input type = "date" id="rdate" name = "date"/> <br><br>
+
+    <input type = "radio" id ="otrip" name= "trip" value="O" /> One-way
+    <input type = "radio" id ="rtrip" name= "trip" value="R"/>Round trip<br><br> 
+
+    <button type ="submit" onclick="bookingconfirm()"> Submit </button>
+    
+   </form>
+</div>
+
+<br>
+
+
+
+</body>
+    
+
+</html>

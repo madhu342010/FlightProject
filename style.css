@@ -1,0 +1,135 @@
+body{
+    background-color: skyblue;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+        
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+li,a {
+    
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: inline-start;
+  }
+
+li a:hover {
+    background-color: burlywood;
+  }
+
+.nav_links{
+        
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+h1{
+text-align: center;
+font-weight: 200;
+font-style: oblique;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-display: block;
+}
+
+h2{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-shadow: 1px;
+    text-align: center;
+    font-size: 100%
+    box-sizing: border-box;
+
+
+#td {
+display: grid;  
+grid-row: 3,1px;
+grid-column: 2,1px;
+grid-gap: 20px;
+align-items: center;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  .pname{
+    background-color: olive;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+  }
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
